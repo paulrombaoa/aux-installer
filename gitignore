@@ -1,0 +1,15 @@
+# Build output
+release/
+dist/
+*.exe
+*.msi
+*.log
+
+# Installers and tweak configs stay out of Git (large, vendor-owned)
+installers/
+winutil.ps1
+winutil-tweaks.json
+
+# Editor / OS
+.vscode/*.log
+Thumbs.db
